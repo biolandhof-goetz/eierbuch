@@ -1,0 +1,9 @@
+<header><div class="brand"><img src="./icon.svg" alt=""><span>B&#xf6;hringen &#xb7; R&#xf6;merstein</span></div><h1>Das Eierbuch.</h1><p>Zwei H&#xfc;hnermobile. Alles im Blick.</p></header>
+<main class="wrap">
+<div class="hero"><div><span class="eyebrow">Zuletzt erfasst</span><strong id="hero-count">0 Eier</strong></div><small id="hero-date">Noch kein Eintrag</small></div>
+<section class="view" id="view-entry" aria-label="Tageserfassung">
+<div class="section-title"><h2>Tageserfassung</h2><span>Eintrag f&#xfc;r einen Tag</span></div>
+<form id="entry-form">
+<div class="panel"><label class="label" for="date">Datum</label><input id="date" type="date" required></div>
+<div class="pair">
+<div class="panel"><div class="mobile-title"><h3>H&#xfc;hnermobil 1</h3><span class="number">01</span></div><label class="label" for="eggs1">Gelegte Eier</label><div class="counter"><button type="button" data-step="-1" data-target="eggs1" aria-label="Mobil 1: ein Ei weniger">&#x2212;</button><input id="eggs1" type="number" inputmode="numeric" min="0" max="99999" step="1" value="0" required><button type="button" data-step="1" data-target="eggs1" aria-label="Mobil 1: ein Ei mehr">+</button></div><p class="s
