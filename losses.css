@@ -1,6 +1,0 @@
-/* Extra touch-friendly controls for animal losses. */
-.nav-inner{grid-template-columns:repeat(5,1fr)}
-#view-losses select{border:1.5px solid #ced9cc;background:#fbfcf8;border-radius:12px;min-height:52px;padding:9px 12px;color:#1c3a29;width:100%;font:inherit;font-size:18px;margin-bottom:17px}
-#view-losses .label{margin-top:16px}#view-losses .label:first-child{margin-top:0}#view-losses .counter{margin:0 0 17px}#view-losses .action-row .btn{min-width:130px}
-#loss-summary{grid-template-columns:repeat(3,1fr)}#loss-chart svg{min-width:420px}#view-losses .entry .tools button{min-height:48px}
-@media(max-width:480px){.nav button{font-size:11px}#loss-summary{grid-template-columns:1fr 1fr}}
